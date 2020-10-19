@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Ingredient.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Ingredient = props => {
   
@@ -39,8 +39,8 @@ const Ingredient = props => {
   )
 }
 
-Ingredient.propTypes ={
-  props: PropTypes.string.isRequired,
-}
+// Ingredient.propTypes ={
+//   props: PropTypes.string.isRequired,
+// }
 
 export default Ingredient
